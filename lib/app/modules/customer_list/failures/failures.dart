@@ -32,8 +32,8 @@ class Failures implements IFailures {
         return 'Erro no servidor!';
       case FailureType.badRequest:
         return 'Dados mal formatados!';
-      case FailureType.networkError:
-        return 'Sem conexão com a internet!';
+      case FailureType.timeOutServer:
+        return 'Sem resposta do servidor!';
       default:
         return 'Erro inesperado!';
     }
@@ -50,9 +50,11 @@ class Failures implements IFailures {
       case 500:
       case 501:
       case 502:
+      case 503:
+      case 504:
         return FailureType.serverError;
       case 0:
-        return FailureType.networkError;
+        return FailureType.timeOutServer;
       default:
         return FailureType.unknown;
     }
@@ -66,12 +68,17 @@ class Failures implements IFailures {
 
   @override
   FailureType get failureType => type;
+
+  @override
+  String toString() {
+    return 'Failures(type: $type, message: "$message")';
+  }
 }
 
 class FailuresInternet extends Failures {
   FailuresInternet({super.stackTrace})
     : super(
-        message: 'Sem conexão com a internet!',
-        type: FailureType.networkError,
+        message: 'Sem resposta do servidor!',
+        type: FailureType.timeOutServer,
       );
 }

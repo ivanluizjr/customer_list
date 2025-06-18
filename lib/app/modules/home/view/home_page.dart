@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:customer_list/app/core/%20routes/routes.dart';
 import 'package:customer_list/app/core/themes/extensions/color_theme_extension.dart';
 import 'package:customer_list/app/core/widgets/button_widget.dart';
@@ -19,17 +17,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: context.appColors.white,
-      appBar: Platform.isIOS
-          ? AppBar(backgroundColor: context.appColors.mainColor)
-          : null,
+      appBar: AppBar(backgroundColor: context.appColors.mainColor),
       body: Column(
         children: [
-          Padding(
-            padding: Platform.isAndroid
-                ? EdgeInsetsGeometry.only(top: context.padding.top)
-                : EdgeInsets.zero,
-            child: ImageAssetsWidget.imageHome(),
-          ),
+          ImageAssetsWidget.imageHome(),
           Padding(
             padding: const EdgeInsets.only(top: 24.0, left: 16.0, right: 16.0),
             child: TextWidget(

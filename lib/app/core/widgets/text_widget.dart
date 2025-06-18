@@ -29,8 +29,8 @@ class TextWidget extends StatelessWidget {
   final Color? decorationColor;
 
   const TextWidget({
-    this.backgroundColor,
     required this.text,
+    this.backgroundColor,
     this.colorText,
     this.fontFamily,
     this.fontSize,

@@ -27,7 +27,7 @@ class _AppWidgetState extends State<AppWidget> {
     return MaterialApp(
       title: 'Customer List',
       debugShowCheckedModeBanner: false,
-      onGenerateRoute: Routes.generateRoute,
+      onGenerateRoute: Routes.onGenerateRoute,
       initialRoute: Routes.splashPage,
       themeMode: ThemeMode.system,
       theme: ThemeData(

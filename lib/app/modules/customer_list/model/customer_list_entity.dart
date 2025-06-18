@@ -16,4 +16,16 @@ class CustomerListEntity {
     required this.cidade,
     required this.estado,
   });
+
+  factory CustomerListEntity.empty() {
+    return const CustomerListEntity(
+      id: 0,
+      nome: '',
+      idade: 0,
+      email: '',
+      endereco: '',
+      cidade: '',
+      estado: '',
+    );
+  }
 }
