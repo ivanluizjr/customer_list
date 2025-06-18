@@ -1,7 +1,7 @@
-# :shield: Magazine Store
+# :shield: Customer List
 
 Este projeto foi um desafio para construir um app do zero, onde o objetivo era desenvolver um app que consome uma lista de clientes mostra algumas informações na página da lista e detalhes em uma página de detalhes.
-Para o desafio não exitia um mockup, então o projeto final foi feito em cima de um mockup que eu próprio fiz através das informações.
+Para o desafio não existia um mockup, então o projeto final foi feito em cima de um mockup que eu próprio fiz através das informações.
   
 ## :computer: Tecnologias, APIs, Packages utilizados:
   
@@ -50,12 +50,10 @@ Para o desafio não exitia um mockup, então o projeto final foi feito em cima d
  # :iphone: Layout do App
   
   
-  https://github.com/user-attachments/assets/0ca1e7a6-7fe3-4fad-959f-062f49acb9ce
+https://github.com/user-attachments/assets/ca2dbc23-04b2-4dc2-8f42-efa9c6d30c51
 
 
- #
-  
-  ![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
+#![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
 
 
 
