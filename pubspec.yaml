@@ -26,6 +26,10 @@ dependencies:
   google_fonts: ^6.2.1
   auto_size_text: ^3.0.0
 
+  #Todo - Images
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.2.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -33,5 +37,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+   
 
   
