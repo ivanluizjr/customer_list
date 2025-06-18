@@ -40,7 +40,6 @@ class RenderCircularLoading extends RenderBox {
 
   @override
   Size computeDryLayout(BoxConstraints constraints) {
-    // Usa o tamanho fixo ao invés de constraints.maxWidth
     return Size.square(_size);
   }
 
@@ -88,7 +87,7 @@ class CircularLoading extends LeafRenderObjectWidget {
   final Color backgroundColor;
   final Color loadingColor;
   final double strokeWidth;
-  final double size; // Adiciona tamanho
+  final double size;
 
   const CircularLoading({
     super.key,
@@ -96,7 +95,7 @@ class CircularLoading extends LeafRenderObjectWidget {
     required this.backgroundColor,
     required this.loadingColor,
     required this.strokeWidth,
-    required this.size, // Requer o tamanho
+    required this.size,
   });
 
   @override
@@ -164,7 +163,7 @@ class _CircularLoadingWidgetState extends State<CircularLoadingWidget>
         backgroundColor: widget.backgroundColor,
         loadingColor: widget.loadingColor,
         strokeWidth: widget.strokeWidth,
-        size: widget.size, // Passa o tamanho
+        size: widget.size,
       ),
     );
   }
