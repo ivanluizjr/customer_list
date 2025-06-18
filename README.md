@@ -21,6 +21,9 @@ Para o desafio não existia um mockup, então o projeto final foi feito em cima 
 
 ![image](https://github.com/user-attachments/assets/e6e11618-51e0-481a-b271-99c59d13943b)
 
+![image](https://github.com/user-attachments/assets/4c4e65b8-529e-456a-a2da-0dc83282594a)
+
+
 ## :keyboard: Estágios de desenvolvimento do projeto:
 
   - Seguindo os conceitos de uma arquitetura limpa, fiz a organização das pastas do nosso projeto e configurações de pacotes e widgets 
@@ -53,7 +56,8 @@ Para o desafio não existia um mockup, então o projeto final foi feito em cima 
 https://github.com/user-attachments/assets/ca2dbc23-04b2-4dc2-8f42-efa9c6d30c51
 
 
-#![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
+#
+![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
 
 
 
