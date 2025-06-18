@@ -3,7 +3,7 @@ typedef OnChanged<T> = void Function(T value);
 typedef Json = Map<String, dynamic>;
 
 enum FailureType {
-  networkError,
+  timeOutServer,
   serverError,
   invalidCredentials,
   accessDenied,
