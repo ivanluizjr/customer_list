@@ -37,33 +37,4 @@ class Routes {
 
     return null;
   }
-
-  // static Route<dynamic> generateRoute(RouteSettings settings) {
-  //   final name = settings.name;
-
-  //   switch (name) {
-  //     case splashPage:
-  //       return MaterialPageRoute(builder: (_) => const SplashPage());
-
-  //     case homePage:
-  //       return MaterialPageRoute(builder: (_) => const HomePage());
-
-  //     case customerList:
-  //       return MaterialPageRoute(
-  //         builder: (_) => CustomerListPage(cubit: sl<CustomerListCubit>()),
-  //       );
-
-  //     case customerDetails:
-  //       final customer = settings.arguments as CustomerListEntity;
-
-  //       return MaterialPageRoute(
-  //         builder: (_) => CustomerDetailsPage(
-  //           cubit: CustomerDetailsPageCubit(customerArgs: customer),
-  //         ),
-  //       );
-
-  //     default:
-  //       return MaterialPageRoute(builder: (_) => const HomePage());
-  //   }
-  // }
 }
